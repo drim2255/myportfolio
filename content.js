@@ -9,7 +9,7 @@ window.PORTFOLIO_CONTENT = {
     emailCompose: "https://mail.google.com/mail/?view=cm&fs=1&to=dreem.sabiniano.va%40gmail.com"
   },
   photos: {
-    hero: "dreem-portrait.png",
+    hero: src="dreem-portrait.png",
     calendar: "project-calendar.svg",
     documents: "project-documents.svg",
     sourcing: "project-sourcing.svg",
