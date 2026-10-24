@@ -16,15 +16,11 @@
 @media(max-width:380px){.container,.nav-wrap{width:calc(100% - 28px)}.brand{font-size:16px}.theme-toggle{width:34px;height:34px}.hero h1{font-size:3.25rem}.button{padding:12px 18px}.portrait-frame{height:300px}.project-track{grid-auto-columns:92%}.project-card{min-height:560px}.project-image{height:285px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
 .view-project {
-  background: var(--pink);
-  color: #fff;
-  border-color: transparent;
-  box-shadow: 0 10px 22px rgba(166, 81, 114, 0.15);
+  background: var(--pink) !important;
+  color: #fff !important;
+  border-color: transparent !important;
 }
-
 .view-project:hover {
-  background: var(--pink);
-  color: #fff;
-  transform: translateY(-2px);
-  box-shadow: 0 12px 24px rgba(166, 81, 114, 0.19);
+  background: var(--pink) !important;
+  color: #fff !important;
 }
