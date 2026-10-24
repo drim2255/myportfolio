@@ -7,7 +7,7 @@ Static portfolio built with HTML, CSS, and vanilla JavaScript. No build step or 
 - `styles.css` — responsive styling, palette, light/dark theme, reduced motion
 - `script.js` — rendering, navigation, project dialog, photo edit mode
 - `content.js` — all text content, profile links, and image paths
-- `images/` — includes custom project illustrations; add your own portrait at `images/dreem-portrait.png`
+- `images/` — includes custom project illustrations; add your own portrait at `dreem-portrait.png`
 - `favicon.svg` — simple initial favicon
 
 ## Add your images
