@@ -37,6 +37,7 @@
       if (img.complete && img.naturalWidth === 0) showFallback();
     });
   }
+  wireImages($(".hero"));
   const serviceGrid = $("#service-grid");
   serviceGrid.innerHTML = data.services.items.map(item => `<article class="service-card reveal"><div class="icon-box" aria-hidden="true">${escapeHTML(item.icon)}</div><h3>${escapeHTML(item.title)}</h3><p>${escapeHTML(item.description)}</p><ul class="star-list">${item.bullets.map(line => `<li>${escapeHTML(line)}</li>`).join("")}</ul></article>`).join("");
 
